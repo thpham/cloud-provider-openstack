@@ -1,15 +1,32 @@
 apiVersion: v1
 entries:
+  openstack-cinder-csi:
+  - apiVersion: v1
+    appVersion: v1.30.0
+    created: "2024-09-06T00:41:41.879196811Z"
+    description: Cinder CSI Chart for OpenStack
+    digest: 5bc41a4940b040fcf35c6aae38c242ddd3a7baf59a96f80e42bd4a7ce2369a22
+    home: https://github.com/kubernetes/cloud-provider-openstack
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    maintainers:
+    - email: mnasiadka@gmail.com
+      name: mnasiadka
+    - email: matt@stackhpc.com
+      name: mkjpryor
+    name: openstack-cinder-csi
+    urls:
+    - https://github.com/thpham/cloud-provider-openstack/releases/download/openstack-cinder-csi-2.30.1-alpha.2/openstack-cinder-csi-2.30.1-alpha.2.tgz
+    version: 2.30.1-alpha.2
   openstack-cloud-controller-manager:
   - apiVersion: v2
     appVersion: v1.30.0
-    created: "2024-07-12T15:54:20.463565775Z"
+    created: "2024-09-06T00:41:41.990988811Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
       version: 2.14.1
     description: Openstack Cloud Controller Manager Helm Chart
-    digest: d70a4e23b486cd80c38d73f16bda4e2e20f05d322b600f227a46bf14ee0fcf25
+    digest: fc7646720cc5a8c5610e0f8ae455ced67dfd2b61dd9e011ae39e7c2828fe4580
     home: https://github.com/kubernetes/cloud-provider-openstack
     icon: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/OpenStack-Logo-Vertical.png
     maintainers:
@@ -18,6 +35,6 @@ entries:
       url: https://www.telekom.com
     name: openstack-cloud-controller-manager
     urls:
-    - https://github.com/thpham/cloud-provider-openstack/releases/download/openstack-cloud-controller-manager-2.30.2/openstack-cloud-controller-manager-2.30.2.tgz
-    version: 2.30.2
-generated: "2024-07-12T15:54:20.324105402Z"
+    - https://github.com/thpham/cloud-provider-openstack/releases/download/openstack-cloud-controller-manager-2.30.3/openstack-cloud-controller-manager-2.30.3.tgz
+    version: 2.30.3
+generated: "2024-09-06T00:41:41.712834565Z"
