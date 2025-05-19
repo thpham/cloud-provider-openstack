@@ -231,6 +231,22 @@ entries:
   openstack-manila-csi:
   - apiVersion: v1
     appVersion: v1.32.0
+    created: "2025-05-19T12:56:14.352930202Z"
+    description: Manila CSI Chart for OpenStack
+    digest: 6b57262ee4bbb771c49590246041a9e1341cc8075af3f952e230b710fe83ce24
+    home: http://github.com/kubernetes/cloud-provider-openstack
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    maintainers:
+    - email: mnasiadka@gmail.com
+      name: mnasiadka
+    - email: matt@stackhpc.com
+      name: mkjpryor
+    name: openstack-manila-csi
+    urls:
+    - https://github.com/thpham/cloud-provider-openstack/releases/download/openstack-manila-csi-2.33.0-alpha.3/openstack-manila-csi-2.33.0-alpha.3.tgz
+    version: 2.33.0-alpha.3
+  - apiVersion: v1
+    appVersion: v1.32.0
     created: "2025-05-16T17:20:29.053140815Z"
     description: Manila CSI Chart for OpenStack
     digest: 0af91e8ccb9c65cf6ea203b148e4714acfb19eb0796bc1c9c672e950555781d3
@@ -341,4 +357,4 @@ entries:
     urls:
     - https://github.com/thpham/cloud-provider-openstack/releases/download/openstack-manila-csi-2.31.0/openstack-manila-csi-2.31.0.tgz
     version: 2.31.0
-generated: "2025-05-16T17:20:29.053215899Z"
+generated: "2025-05-19T12:56:14.353006268Z"
