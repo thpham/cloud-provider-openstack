@@ -3,6 +3,22 @@ entries:
   openstack-cinder-csi:
   - apiVersion: v1
     appVersion: v1.33.0
+    created: "2025-10-08T11:20:32.099134808Z"
+    description: Cinder CSI Chart for OpenStack
+    digest: 2f32799535d47a66c0d7358a9be17f6b04df36261b0306eafa6b38586068bd48
+    home: https://github.com/kubernetes/cloud-provider-openstack
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    maintainers:
+    - email: mnasiadka@gmail.com
+      name: mnasiadka
+    - email: matt@stackhpc.com
+      name: mkjpryor
+    name: openstack-cinder-csi
+    urls:
+    - https://github.com/thpham/cloud-provider-openstack/releases/download/openstack-cinder-csi-2.33.1/openstack-cinder-csi-2.33.1.tgz
+    version: 2.33.1
+  - apiVersion: v1
+    appVersion: v1.33.0
     created: "2025-06-08T11:20:40.651424648Z"
     description: Cinder CSI Chart for OpenStack
     digest: 038eb255743c81e1e6b6c426685a5ae0abcf8d1fc54c3db402ec37820b68abba
@@ -298,6 +314,22 @@ entries:
   openstack-manila-csi:
   - apiVersion: v1
     appVersion: v1.33.0
+    created: "2025-10-08T11:20:32.255922849Z"
+    description: Manila CSI Chart for OpenStack
+    digest: 8c37011a8e5666a3bc7d86d73d6a678d63641262aeead34ad79b6d64a4cca52e
+    home: http://github.com/kubernetes/cloud-provider-openstack
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    maintainers:
+    - email: mnasiadka@gmail.com
+      name: mnasiadka
+    - email: matt@stackhpc.com
+      name: mkjpryor
+    name: openstack-manila-csi
+    urls:
+    - https://github.com/thpham/cloud-provider-openstack/releases/download/openstack-manila-csi-2.33.1/openstack-manila-csi-2.33.1.tgz
+    version: 2.33.1
+  - apiVersion: v1
+    appVersion: v1.33.0
     created: "2025-06-08T11:20:40.890831933Z"
     description: Manila CSI Chart for OpenStack
     digest: fa0864bf3208e40ecf536eeb36ce4e8e15718c7145da678ce7a5a2eeb7ba9293
@@ -440,4 +472,4 @@ entries:
     urls:
     - https://github.com/thpham/cloud-provider-openstack/releases/download/openstack-manila-csi-2.31.0/openstack-manila-csi-2.31.0.tgz
     version: 2.31.0
-generated: "2025-06-08T11:20:40.890952598Z"
+generated: "2025-10-08T11:20:32.256069593Z"
